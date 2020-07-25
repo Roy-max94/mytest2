@@ -1,0 +1,37 @@
+package com.loyi.pojo;
+
+/**
+ * @Package: com.loyi.pojo
+ * @ClassName: User
+ * @Author: 明天
+ * @CreateTime: 2020/7/25 18:12
+ * @Description:
+ */
+public class User {
+    private String name;
+    private int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public User() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
