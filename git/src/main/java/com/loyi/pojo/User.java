@@ -10,6 +10,7 @@ package com.loyi.pojo;
 public class User {
     private String name;
     private int age;
+    private String sex;
 
     public User(String name, int age) {
         this.name = name;
@@ -41,5 +42,13 @@ public class User {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }
